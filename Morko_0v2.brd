@@ -1,0 +1,344 @@
+PCBNEW-BOARD Version 1 date Tue 01 Apr 2014 12:14:05 PM EEST
+
+# Created by Pcbnew(2012-apr-16-27)-stable
+
+$GENERAL
+encoding utf-8
+LayerCount 2
+Ly 1FFF8001
+EnabledLayers 1FFF8001
+Links 0
+NoConn 0
+Di 34749 19040 52251 34436
+Ndraw 0
+Ntrack 0
+Nzone 0
+BoardThickness 630
+Nmodule 2
+Nnets 4
+$EndGENERAL
+
+$SHEETDESCR
+Sheet A4 11700 8267
+Title ""
+Date "1 apr 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndSHEETDESCR
+
+$SETUP
+InternalUnit 0.000100 INCH
+Layers 2
+Layer[0] Back signal
+Layer[15] Front signal
+TrackWidth 80
+TrackClearence 100
+ZoneClearence 200
+TrackMinWidth 80
+DrawSegmWidth 150
+EdgeSegmWidth 150
+ViaSize 350
+ViaDrill 250
+ViaMinSize 350
+ViaMinDrill 200
+MicroViaSize 200
+MicroViaDrill 50
+MicroViasAllowed 0
+MicroViaMinSize 200
+MicroViaMinDrill 50
+TextPcbWidth 120
+TextPcbSize 600 800
+EdgeModWidth 150
+TextModSize 600 600
+TextModWidth 120
+PadSize 600 600
+PadDrill 320
+Pad2MaskClearance 100
+AuxiliaryAxisOrg 0 0
+PcbPlotParams (pcbplotparams (layerselection 3178497) (usegerberextensions true) (excludeedgelayer true) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 2) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
+$EndSETUP
+
+$EQUIPOT
+Na 0 ""
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 1 "GND"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 2 "N-000018"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 3 "N-000019"
+St ~
+$EndEQUIPOT
+$NCLASS
+Name "Default"
+Desc "This is the default net class."
+Clearance 100
+TrackWidth 80
+ViaDia 350
+ViaDrill 250
+uViaDia 200
+uViaDrill 50
+AddNet ""
+AddNet "GND"
+AddNet "N-000018"
+AddNet "N-000019"
+$EndNCLASS
+$MODULE 3PIN_6mm
+Po 43500 22500 0 15 00200000 533A832E ~~
+Li 3PIN_6mm
+Cd module 2 pin (trou 6 mm)
+Kw DEV
+Sc 533A832E
+AR 
+Op 0 0 0
+T0 4000 -3000 600 600 0 120 N V 21 N "K1"
+T1 -3000 -3000 600 600 0 120 N V 21 N "CONN_3"
+DS -8500 -2500 8500 -2500 150 21
+DS 8500 -2500 8500 2500 150 21
+DS 8500 2500 -8500 2500 150 21
+DS -8500 2500 -8500 -2500 150 21
+$PAD
+Sh "1" C 4000 4000 0 0 0
+Dr 2400 0 0
+At STD N 00E0FFFF
+Ne 2 "N-000018"
+Po -5900 0
+$EndPAD
+$PAD
+Sh "3" C 4000 4000 0 0 0
+Dr 2400 0 0
+At STD N 00E0FFFF
+Ne 3 "N-000019"
+Po 5900 0
+$EndPAD
+$PAD
+Sh "2" C 4000 4000 0 0 0
+Dr 2400 0 0
+At STD N 00E0FFFF
+Ne 1 "GND"
+Po 0 0
+$EndPAD
+$SHAPE3D
+Na "device/douille_4mm(black).wrl"
+Sc 1.800000 1.800000 1.800000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$SHAPE3D
+Na "device/douille_4mm(red).wrl"
+Sc 1.800000 1.800000 1.800000
+Of -0.590000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$SHAPE3D
+Na "device/douille_4mm(green).wrl"
+Sc 1.800000 1.800000 1.800000
+Of 0.590000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  3PIN_6mm
+$MODULE SOIC24
+Po 47500 32500 0 15 4289BEAB 533A8357 ~~
+Li SOIC24
+Sc 533A8357
+AR 
+Op 0 0 0
+At SMD 
+T0 0 -600 400 400 0 80 N V 21 N "SOIC24"
+T1 0 450 400 400 0 80 N V 21 N "VAL**"
+DS 3000 -1100 3000 1100 80 21
+DS -3000 -1100 -3000 1100 80 21
+DS 3000 -1100 -3000 -1100 80 21
+DS -3000 -250 -2500 -250 80 21
+DS -2500 -250 -2500 250 80 21
+DS -2500 250 -3000 250 80 21
+DS -3000 1100 3000 1100 80 21
+$PAD
+Sh "1" R 300 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2750 1500
+$EndPAD
+$PAD
+Sh "2" R 300 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2250 1500
+$EndPAD
+$PAD
+Sh "3" R 300 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1750 1500
+$EndPAD
+$PAD
+Sh "4" R 300 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1250 1500
+$EndPAD
+$PAD
+Sh "5" R 300 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -750 1500
+$EndPAD
+$PAD
+Sh "6" R 300 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -250 1500
+$EndPAD
+$PAD
+Sh "7" R 300 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 250 1500
+$EndPAD
+$PAD
+Sh "8" R 300 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 750 1500
+$EndPAD
+$PAD
+Sh "9" R 300 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1250 1500
+$EndPAD
+$PAD
+Sh "10" R 300 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1750 1500
+$EndPAD
+$PAD
+Sh "11" R 300 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2250 1500
+$EndPAD
+$PAD
+Sh "12" R 300 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2800 1500
+$EndPAD
+$PAD
+Sh "24" R 300 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2750 -1500
+$EndPAD
+$PAD
+Sh "23" R 300 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2250 -1500
+$EndPAD
+$PAD
+Sh "22" R 300 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1750 -1500
+$EndPAD
+$PAD
+Sh "21" R 300 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1250 -1500
+$EndPAD
+$PAD
+Sh "20" R 300 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -750 -1500
+$EndPAD
+$PAD
+Sh "19" R 300 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -250 -1500
+$EndPAD
+$PAD
+Sh "18" R 300 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 250 -1500
+$EndPAD
+$PAD
+Sh "17" R 300 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 750 -1500
+$EndPAD
+$PAD
+Sh "16" R 300 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1250 -1500
+$EndPAD
+$PAD
+Sh "15" R 300 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1750 -1500
+$EndPAD
+$PAD
+Sh "14" R 300 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2250 -1500
+$EndPAD
+$PAD
+Sh "13" R 300 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2750 -1500
+$EndPAD
+$SHAPE3D
+Na "smd/cms_soj24.wrl"
+Sc 0.500000 0.600000 0.500000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  SOIC24
+$TRACK
+$EndTRACK
+$ZONE
+$EndZONE
+$EndBOARD

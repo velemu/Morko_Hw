@@ -1,0 +1,614 @@
+PCBNEW-LibModule-V1  24/03/2014 17:22:11
+# encoding utf-8
+Units mm
+$INDEX
+3pin_5mm_screw_term
+6pin_large_screw_term
+Arduino_nano
+CP2413
+CPsmd_8x8.7
+G5LE-1_Relay
+GND_via
+SOT669
+TO252
+sot23_oma
+$EndINDEX
+$MODULE 3pin_5mm_screw_term
+Po 0 0 0 15 53302055 00000000 ~~
+Li 3pin_5mm_screw_term
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -4.1 1 1 0 0.15 N V 21 N "3pin_5mm_screw_term"
+T1 9 -1.2 1 1 900 0.15 N V 21 N "VAL**"
+DS -8.1 3.3 8.1 3.3 0.15 21
+DS 8.1 3.3 8.1 -3.3 0.15 21
+DS 8.1 -3.3 -8.1 -3.3 0.15 21
+DS -8.1 -3.3 -8.1 3.3 0.15 21
+$PAD
+Sh "1" O 3 3 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5 0
+$EndPAD
+$PAD
+Sh "2" O 3 3 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "3" O 3 3 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5 0
+$EndPAD
+$EndMODULE 3pin_5mm_screw_term
+$MODULE 6pin_large_screw_term
+Po 0 0 0 15 533024E8 00000000 ~~
+Li 6pin_large_screw_term
+Sc 0
+AR 
+Op 0 0 0
+T0 6.096 -3.8354 1 1 0 0.15 N V 21 N "6pin_large_screw_term"
+T1 54.0131 -3.7465 1 1 0 0.15 N V 21 N "VAL**"
+DS -2.159 16.6624 58.3565 16.6497 0.15 21
+DS 58.3565 16.6497 58.3565 -2.5781 0.15 21
+DS 58.3565 -2.5781 -2.2098 -2.5781 0.15 21
+DS -2.2098 -2.5781 -2.159 16.6624 0.15 21
+$PAD
+Sh "1" C 3 3 0 0 0
+Dr 1.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "1" C 3 3 0 0 0
+Dr 1.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 4.0132 0
+$EndPAD
+$PAD
+Sh "2" C 3 3 0 0 0
+Dr 1.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 10.16
+$EndPAD
+$PAD
+Sh "2" C 3 3 0 0 0
+Dr 1.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 14.1732 10.16
+$EndPAD
+$PAD
+Sh "3" C 3 3 0 0 0
+Dr 1.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 20.32 0
+$EndPAD
+$PAD
+Sh "3" C 3 3 0 0 0
+Dr 1.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 24.3332 0
+$EndPAD
+$PAD
+Sh "4" C 3 3 0 0 0
+Dr 1.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 30.48 10.16
+$EndPAD
+$PAD
+Sh "4" C 3 3 0 0 0
+Dr 1.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 34.4932 10.16
+$EndPAD
+$PAD
+Sh "5" C 3 3 0 0 0
+Dr 1.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 40.64 0.0254
+$EndPAD
+$PAD
+Sh "5" C 3 3 0 0 0
+Dr 1.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 44.6532 0.0127
+$EndPAD
+$PAD
+Sh "6" C 3 3 0 0 0
+Dr 1.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 50.8 10.16
+$EndPAD
+$PAD
+Sh "6" C 3 3 0 0 0
+Dr 1.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 54.8132 10.16
+$EndPAD
+$EndMODULE 6pin_large_screw_term
+$MODULE Arduino_nano
+Po 0 0 0 15 53301E98 00000000 ~~
+Li Arduino_nano
+Sc 0
+AR 
+Op 0 0 0
+T0 -5.08 -20.32 1 1 0 0.15 N V 21 N "Arduino_nano"
+T1 7.62 -20.32 1 1 0 0.15 N V 21 N "VAL**"
+DS 3.81 25.4 -3.81 25.4 0.15 21
+DS -3.81 17.78 3.81 17.78 0.15 21
+DS 3.81 25.4 3.81 17.78 0.15 21
+DS -3.81 17.78 -3.81 25.4 0.15 21
+DS -10.16 -19.05 10.16 -19.05 0.15 21
+DS 10.16 -19.05 10.16 24.13 0.15 21
+DS 10.16 24.13 -10.16 24.13 0.15 21
+DS -10.16 24.13 -10.16 -19.05 0.15 21
+$PAD
+Sh "1" O 3 1.8 0 0 0
+Dr 1.1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 -15.24
+$EndPAD
+$PAD
+Sh "2" O 3 1.8 0 0 0
+Dr 1.1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 -12.7
+$EndPAD
+$PAD
+Sh "3" O 3 1.8 0 0 0
+Dr 1.1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 -10.16
+$EndPAD
+$PAD
+Sh "4" O 3 1.8 0 0 0
+Dr 1.1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 -7.62
+$EndPAD
+$PAD
+Sh "5" O 3 1.8 0 0 0
+Dr 1.1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 -5.08
+$EndPAD
+$PAD
+Sh "6" O 3 1.8 0 0 0
+Dr 1.1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 -2.54
+$EndPAD
+$PAD
+Sh "7" O 3 1.8 0 0 0
+Dr 1.1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 0
+$EndPAD
+$PAD
+Sh "8" O 3 1.8 0 0 0
+Dr 1.1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 2.54
+$EndPAD
+$PAD
+Sh "9" O 3 1.8 0 0 0
+Dr 1.1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 5.08
+$EndPAD
+$PAD
+Sh "10" O 3 1.8 0 0 0
+Dr 1.1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 7.62
+$EndPAD
+$PAD
+Sh "11" O 3 1.8 0 0 0
+Dr 1.1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 10.16
+$EndPAD
+$PAD
+Sh "12" O 3 1.8 0 0 0
+Dr 1.1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 12.7
+$EndPAD
+$PAD
+Sh "13" O 3 1.8 0 0 0
+Dr 1.1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 15.24
+$EndPAD
+$PAD
+Sh "14" O 3 1.8 0 0 0
+Dr 1.1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 17.78
+$EndPAD
+$PAD
+Sh "15" O 3 1.8 0 0 0
+Dr 1.1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 20.32
+$EndPAD
+$PAD
+Sh "16" O 3 1.8 0 0 0
+Dr 1.1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 20.32
+$EndPAD
+$PAD
+Sh "17" O 3 1.8 0 0 0
+Dr 1.1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 17.78
+$EndPAD
+$PAD
+Sh "18" O 3 1.8 0 0 0
+Dr 1.1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 15.24
+$EndPAD
+$PAD
+Sh "19" O 3 1.8 0 0 0
+Dr 1.1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 12.7
+$EndPAD
+$PAD
+Sh "20" O 3 1.8 0 0 0
+Dr 1.1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 10.16
+$EndPAD
+$PAD
+Sh "21" O 3 1.8 0 0 0
+Dr 1.1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 7.62
+$EndPAD
+$PAD
+Sh "22" O 3 1.8 0 0 0
+Dr 1.1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 5.08
+$EndPAD
+$PAD
+Sh "23" O 3 1.8 0 0 0
+Dr 1.1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 2.54
+$EndPAD
+$PAD
+Sh "24" O 3 1.8 0 0 0
+Dr 1.1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 0
+$EndPAD
+$PAD
+Sh "25" O 3 1.8 0 0 0
+Dr 1.1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 -2.54
+$EndPAD
+$PAD
+Sh "26" O 3 1.8 0 0 0
+Dr 1.1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 -5.08
+$EndPAD
+$PAD
+Sh "27" O 3 1.8 0 0 0
+Dr 1.1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 -7.62
+$EndPAD
+$PAD
+Sh "28" O 3 1.8 0 0 0
+Dr 1.1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 -10.16
+$EndPAD
+$PAD
+Sh "29" O 3 1.8 0 0 0
+Dr 1.1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 -12.7
+$EndPAD
+$PAD
+Sh "30" O 3 1.8 0 0 0
+Dr 1.1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 -15.24
+$EndPAD
+$EndMODULE Arduino_nano
+$MODULE CP2413
+Po 0 0 0 15 53301918 00000000 ~~
+Li CP2413
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -3 1 1 0 0.15 N V 21 N "CP2413"
+T1 0 3.3 1 1 0 0.15 N V 21 N "VAL**"
+T2 -3.7 2 1 1 0 0.15 N V 21 N "+"
+DS 3 1.7 3 1.5 0.15 21
+DS -3 1.7 -3 1.5 0.15 21
+DS -3 -1.7 -3 -1.5 0.15 21
+DS 3 -1.5 3 -1.7 0.15 21
+DS 3 -1.7 -3 -1.7 0.15 21
+DS -3 1.7 3 1.7 0.15 21
+$PAD
+Sh "1" R 2.9 2.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.6 0
+$EndPAD
+$PAD
+Sh "2" R 2.9 2.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.7 0
+$EndPAD
+$EndMODULE CP2413
+$MODULE CPsmd_8x8.7
+Po 0 0 0 15 53301BBD 00000000 ~~
+Li CPsmd_8x8.7
+Sc 0
+AR 
+Op 0 0 0
+T0 0.1 -5.2 1 1 0 0.15 N V 21 N "CPsmd_8x8.7"
+T1 0.7 5.4 1 1 0 0.15 N V 21 N "VAL**"
+T2 -5.7 2.1 1 1 0 0.15 N V 21 N "+"
+DS 4.5 1.3 4.5 4.2 0.15 21
+DS 4.5 4.2 -3.5 4.2 0.15 21
+DS -3.5 4.2 -4.5 3.2 0.15 21
+DS -4.5 3.2 -4.5 1.3 0.15 21
+DS 4.5 -1.3 4.5 -4.2 0.15 21
+DS 4.5 -4.2 -3.5 -4.2 0.15 21
+DS -3.5 -4.2 -4.5 -3.2 0.15 21
+DS -4.5 -3.2 -4.5 -1.3 0.15 21
+$PAD
+Sh "1" R 4.4 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.6 0
+$EndPAD
+$PAD
+Sh "2" R 4.4 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.6 0
+$EndPAD
+$EndMODULE CPsmd_8x8.7
+$MODULE G5LE-1_Relay
+Po 0 0 0 15 53303572 00000000 ~~
+Li G5LE-1_Relay
+Sc 0
+AR 
+Op 0 0 0
+T0 -5.2 -9.5 1 1 0 0.15 N V 21 N "G5LE-1_Relay"
+T1 10.7 -9.4 1 1 0 0.15 N V 21 N "VAL**"
+DS -10.3 -8.5 12.2 -8.5 0.15 21
+DS 12.2 -8.5 12.25 8 0.15 21
+DS 12.25 8 -10.25 8 0.15 21
+DS -10.25 8 -10.3 -8.5 0.15 21
+$PAD
+Sh "5" C 3 3 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.75 -0.25
+$EndPAD
+$PAD
+Sh "8" C 3 3 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.75 -6.25
+$EndPAD
+$PAD
+Sh "1" C 3 3 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 4.45 -6.25
+$EndPAD
+$PAD
+Sh "3" C 3 3 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 4.45 5.75
+$EndPAD
+$PAD
+Sh "9" C 3 3 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.75 5.75
+$EndPAD
+$EndMODULE G5LE-1_Relay
+$MODULE GND_via
+Po 0 0 0 15 53304D7A 00000000 ~~
+Li GND_via
+Sc 0
+AR 
+Op 0 0 0
+T0 0.3 -1.4 1 1 0 0.15 N I 21 N "GND_via"
+T1 0.1 1.1 1 1 0 0.15 N I 21 N "VAL**"
+$PAD
+Sh "1" C 0.6 0.6 0 0 0
+Dr 0.4 0 0
+At STD N 0000FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE GND_via
+$MODULE SOT669
+Po 0 0 0 15 5330293E 00000000 ~~
+Li SOT669
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -5.715 1 1 0 0.15 N V 21 N "SOT669"
+T1 3.556 -1.905 1 1 900 0.15 N V 21 N "VAL**"
+$PAD
+Sh "5" R 4.2 3.1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -1.55
+.SolderMask 0.075
+$EndPAD
+$PAD
+Sh "5" R 5 1.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -3.85
+.SolderMask 0.075
+$EndPAD
+$PAD
+Sh "1" R 0.7 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.905 2.032
+.SolderMask 0.05
+$EndPAD
+$PAD
+Sh "2" R 0.7 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.635 2.032
+$EndPAD
+$PAD
+Sh "3" R 0.7 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.635 2.032
+$EndPAD
+$PAD
+Sh "4" R 0.7 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.905 2.032
+$EndPAD
+$EndMODULE SOT669
+$MODULE TO252
+Po 0 0 0 15 53302F75 00000000 ~~
+Li TO252
+Sc 0
+AR 
+Op 0 0 0
+T0 -3.8 -5.6 1 1 900 0.15 N V 21 N "TO252"
+T1 3.8 -5.45 1 1 900 0.15 N V 21 N "VAL**"
+$PAD
+Sh "2" R 5.5 5.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -6.45
+$EndPAD
+$PAD
+Sh "1" R 1.4 1.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.3 0.1
+$EndPAD
+$PAD
+Sh "3" R 1.4 1.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.3 0.1
+$EndPAD
+$EndMODULE TO252
+$MODULE sot23_oma
+Po 0 0 0 15 53303621 00000000 ~~
+Li sot23_oma
+Sc 0
+AR 
+Op 0 0 0
+T0 0.4 -3.5 1 1 0 0.15 N V 21 N "sot23_oma"
+T1 0.15 1.65 1 1 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "2" R 1 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -2
+$EndPAD
+$PAD
+Sh "3" R 1 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.95 0
+$EndPAD
+$PAD
+Sh "1" R 1 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.95 0
+$EndPAD
+$EndMODULE sot23_oma
+$EndLIBRARY

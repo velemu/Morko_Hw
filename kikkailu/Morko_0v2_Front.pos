@@ -1,0 +1,7 @@
+### Module positions - created on Tue 01 Apr 2014 12:14:23 PM EEST ###
+### Printed by Pcbnew version pcbnew (2012-apr-16-27)-stable
+## Unit = inches, Angle = deg.
+## Side : Front
+# Ref    Val                  PosX       PosY        Rot     Side
+SOIC24   VAL**                4.7500     3.2500       0.0    Front
+## End

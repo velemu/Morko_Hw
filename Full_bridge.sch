@@ -1,0 +1,648 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Morko_0v2-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 3
+Title ""
+Date "30 oct 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 1950 1650 0    60   Input ~ 0
+HV
+Text HLabel 1900 6300 0    60   Input ~ 0
+GND
+Text HLabel 9500 2900 2    60   Output ~ 0
+OUT1
+Text HLabel 9500 4650 2    60   Output ~ 0
+OUT2
+Text HLabel 1900 2250 0    60   Input ~ 0
+LV
+Text HLabel 1900 3350 0    60   Input ~ 0
+PWM
+Text HLabel 1900 4000 0    60   Input ~ 0
+dis/
+$Comp
+L 4001 U201
+U 1 1 532F2C40
+P 2750 3350
+AR Path="/532EAC8E/532F2C40" Ref="U201"  Part="1" 
+AR Path="/532EC996/532F2C40" Ref="U301"  Part="1" 
+F 0 "U201" H 2750 3400 60  0000 C CNN
+F 1 "4001" H 2750 3300 60  0000 C CNN
+F 2 "" H 2750 3350 60  0000 C CNN
+F 3 "" H 2750 3350 60  0000 C CNN
+	1    2750 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4001 U201
+U 4 1 532F2C5E
+P 4350 4300
+AR Path="/532EAC8E/532F2C5E" Ref="U201"  Part="4" 
+AR Path="/532EC996/532F2C5E" Ref="U301"  Part="4" 
+F 0 "U201" H 4350 4350 60  0000 C CNN
+F 1 "4001" H 4350 4250 60  0000 C CNN
+F 2 "" H 4350 4300 60  0000 C CNN
+F 3 "" H 4350 4300 60  0000 C CNN
+	4    4350 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4001 U201
+U 2 1 532F2C6D
+P 3900 5800
+AR Path="/532EAC8E/532F2C6D" Ref="U201"  Part="2" 
+AR Path="/532EC996/532F2C6D" Ref="U301"  Part="2" 
+F 0 "U201" H 3900 5850 60  0000 C CNN
+F 1 "4001" H 3900 5750 60  0000 C CNN
+F 2 "" H 3900 5800 60  0000 C CNN
+F 3 "" H 3900 5800 60  0000 C CNN
+	2    3900 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4001 U201
+U 3 1 532F2C7C
+P 4350 3450
+AR Path="/532EAC8E/532F2C7C" Ref="U201"  Part="3" 
+AR Path="/532EC996/532F2C7C" Ref="U301"  Part="3" 
+F 0 "U201" H 4350 3500 60  0000 C CNN
+F 1 "4001" H 4350 3400 60  0000 C CNN
+F 2 "" H 4350 3450 60  0000 C CNN
+F 3 "" H 4350 3450 60  0000 C CNN
+	3    4350 3450
+	1    0    0    -1  
+$EndComp
+Text HLabel 1950 2900 0    60   Input ~ 0
+VDD
+Text Label 2100 2900 0    60   ~ 0
+VDD
+Text Label 2250 6300 0    60   ~ 0
+GND
+$Comp
+L PSMN8R0 Q201
+U 1 1 532F317C
+P 8800 2650
+AR Path="/532EAC8E/532F317C" Ref="Q201"  Part="1" 
+AR Path="/532EC996/532F317C" Ref="Q301"  Part="1" 
+F 0 "Q201" H 8810 2820 60  0000 R CNN
+F 1 "PSMN8R0" H 8810 2500 60  0000 R CNN
+F 2 "~" H 8800 2650 60  0000 C CNN
+F 3 "~" H 8800 2650 60  0000 C CNN
+	1    8800 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L PSMN8R0 Q202
+U 1 1 532F3193
+P 8800 3350
+AR Path="/532EAC8E/532F3193" Ref="Q202"  Part="1" 
+AR Path="/532EC996/532F3193" Ref="Q302"  Part="1" 
+F 0 "Q202" H 8810 3520 60  0000 R CNN
+F 1 "PSMN8R0" H 8810 3200 60  0000 R CNN
+F 2 "~" H 8800 3350 60  0000 C CNN
+F 3 "~" H 8800 3350 60  0000 C CNN
+	1    8800 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L PSMN8R0 Q203
+U 1 1 532F3199
+P 8800 4400
+AR Path="/532EAC8E/532F3199" Ref="Q203"  Part="1" 
+AR Path="/532EC996/532F3199" Ref="Q303"  Part="1" 
+F 0 "Q203" H 8810 4570 60  0000 R CNN
+F 1 "PSMN8R0" H 8810 4250 60  0000 R CNN
+F 2 "~" H 8800 4400 60  0000 C CNN
+F 3 "~" H 8800 4400 60  0000 C CNN
+	1    8800 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L PSMN8R0 Q204
+U 1 1 532F319F
+P 8800 5100
+AR Path="/532EAC8E/532F319F" Ref="Q204"  Part="1" 
+AR Path="/532EC996/532F319F" Ref="Q304"  Part="1" 
+F 0 "Q204" H 8810 5270 60  0000 R CNN
+F 1 "PSMN8R0" H 8810 4950 60  0000 R CNN
+F 2 "~" H 8800 5100 60  0000 C CNN
+F 3 "~" H 8800 5100 60  0000 C CNN
+	1    8800 5100
+	1    0    0    -1  
+$EndComp
+Text Label 9300 3700 0    60   ~ 0
+GND
+Text Label 9300 5450 0    60   ~ 0
+GND
+Wire Wire Line
+	1900 3350 2000 3350
+Wire Wire Line
+	2000 3250 2000 4200
+Wire Wire Line
+	2000 3250 2150 3250
+Wire Wire Line
+	2000 3450 2150 3450
+Connection ~ 2000 3350
+Wire Wire Line
+	1900 4000 3200 4000
+Wire Wire Line
+	3200 3550 3200 4400
+Wire Wire Line
+	3200 3550 3750 3550
+Wire Wire Line
+	3350 3350 3750 3350
+Wire Wire Line
+	2000 4200 3750 4200
+Connection ~ 2000 3450
+Wire Wire Line
+	3200 4400 3750 4400
+Connection ~ 3200 4000
+Wire Wire Line
+	1950 2900 2500 2900
+Wire Wire Line
+	8900 2850 8900 3150
+Wire Wire Line
+	8900 2900 9500 2900
+Wire Wire Line
+	9100 2900 9100 2850
+Wire Wire Line
+	9000 2850 9000 2900
+Connection ~ 9000 2900
+Connection ~ 8900 2900
+Wire Wire Line
+	8900 4600 8900 4900
+Wire Wire Line
+	9000 4600 9000 4650
+Wire Wire Line
+	8900 4650 9500 4650
+Connection ~ 8900 4650
+Wire Wire Line
+	9100 4650 9100 4600
+Connection ~ 9000 4650
+Connection ~ 9100 2900
+Wire Wire Line
+	8900 3550 8900 3700
+Wire Wire Line
+	7800 3700 9450 3700
+Wire Wire Line
+	9000 3550 9000 3700
+Connection ~ 9000 3700
+Wire Wire Line
+	9100 3550 9100 3700
+Connection ~ 9100 3700
+Wire Wire Line
+	8900 5300 8900 5450
+Wire Wire Line
+	7800 5450 9450 5450
+Wire Wire Line
+	9000 5300 9000 5450
+Connection ~ 9000 5450
+Wire Wire Line
+	9100 5300 9100 5450
+Connection ~ 9100 5450
+Wire Wire Line
+	1950 1650 5550 1650
+Text Label 2250 1650 0    60   ~ 0
+HVDD
+Wire Wire Line
+	8900 2450 8900 2250
+Wire Wire Line
+	8900 2250 9400 2250
+Wire Wire Line
+	8900 4200 8900 4050
+Wire Wire Line
+	8900 4050 9400 4050
+Text Label 9150 2250 0    60   ~ 0
+HVDD
+Text Label 9150 4050 0    60   ~ 0
+HVDD
+$Comp
+L LM5104 U202
+U 1 1 532F3679
+P 7050 2600
+AR Path="/532EAC8E/532F3679" Ref="U202"  Part="1" 
+AR Path="/532EC996/532F3679" Ref="U302"  Part="1" 
+F 0 "U202" H 7200 2650 60  0000 C CNN
+F 1 "LM5104" H 7300 1850 60  0000 C CNN
+F 2 "" H 7050 2600 60  0000 C CNN
+F 3 "" H 7050 2600 60  0000 C CNN
+	1    7050 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM5104 U203
+U 1 1 532F3686
+P 7100 4350
+AR Path="/532EAC8E/532F3686" Ref="U203"  Part="1" 
+AR Path="/532EC996/532F3686" Ref="U303"  Part="1" 
+F 0 "U203" H 7250 4400 60  0000 C CNN
+F 1 "LM5104" H 7350 3600 60  0000 C CNN
+F 2 "" H 7100 4350 60  0000 C CNN
+F 3 "" H 7100 4350 60  0000 C CNN
+	1    7100 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 2250 4150 2250
+Text Label 2200 2250 0    60   ~ 0
+LVDD
+Wire Wire Line
+	6650 2750 6550 2750
+Wire Wire Line
+	6550 2750 6550 2600
+Wire Wire Line
+	6550 2600 6250 2600
+Wire Wire Line
+	6700 4500 6600 4500
+Wire Wire Line
+	6600 4500 6600 4300
+Wire Wire Line
+	6600 4300 6300 4300
+Wire Wire Line
+	4950 3450 5300 3450
+Wire Wire Line
+	5300 3450 5300 2950
+Wire Wire Line
+	5300 2950 6650 2950
+Wire Wire Line
+	4950 4300 5300 4300
+Wire Wire Line
+	5300 4300 5300 4700
+Wire Wire Line
+	5300 4700 6700 4700
+Text Label 6250 2600 0    60   ~ 0
+LVDD
+Text Label 6300 4300 0    60   ~ 0
+LVDD
+Wire Wire Line
+	6700 4950 6250 4950
+Text Label 6250 4950 0    60   ~ 0
+GND
+$Comp
+L R R203
+U 1 1 532F3853
+P 8250 2650
+AR Path="/532EAC8E/532F3853" Ref="R203"  Part="1" 
+AR Path="/532EC996/532F3853" Ref="R303"  Part="1" 
+F 0 "R203" V 8330 2650 40  0000 C CNN
+F 1 "R" V 8257 2651 40  0000 C CNN
+F 2 "~" V 8180 2650 30  0000 C CNN
+F 3 "~" H 8250 2650 30  0000 C CNN
+	1    8250 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R204
+U 1 1 532F3865
+P 8250 3350
+AR Path="/532EAC8E/532F3865" Ref="R204"  Part="1" 
+AR Path="/532EC996/532F3865" Ref="R304"  Part="1" 
+F 0 "R204" V 8330 3350 40  0000 C CNN
+F 1 "R" V 8257 3351 40  0000 C CNN
+F 2 "~" V 8180 3350 30  0000 C CNN
+F 3 "~" H 8250 3350 30  0000 C CNN
+	1    8250 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R205
+U 1 1 532F386B
+P 8250 4400
+AR Path="/532EAC8E/532F386B" Ref="R205"  Part="1" 
+AR Path="/532EC996/532F386B" Ref="R305"  Part="1" 
+F 0 "R205" V 8330 4400 40  0000 C CNN
+F 1 "R" V 8257 4401 40  0000 C CNN
+F 2 "~" V 8180 4400 30  0000 C CNN
+F 3 "~" H 8250 4400 30  0000 C CNN
+	1    8250 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R206
+U 1 1 532F3871
+P 8250 5100
+AR Path="/532EAC8E/532F3871" Ref="R206"  Part="1" 
+AR Path="/532EC996/532F3871" Ref="R306"  Part="1" 
+F 0 "R206" V 8330 5100 40  0000 C CNN
+F 1 "R" V 8257 5101 40  0000 C CNN
+F 2 "~" V 8180 5100 30  0000 C CNN
+F 3 "~" H 8250 5100 30  0000 C CNN
+	1    8250 5100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8600 2650 8500 2650
+Wire Wire Line
+	8600 3350 8500 3350
+Wire Wire Line
+	8600 4400 8500 4400
+Wire Wire Line
+	8600 5100 8500 5100
+Wire Wire Line
+	8000 5100 7750 5100
+Wire Wire Line
+	7750 5100 7750 4950
+Wire Wire Line
+	7750 4950 7500 4950
+Wire Wire Line
+	8000 4400 7750 4400
+Wire Wire Line
+	7750 4400 7750 4500
+Wire Wire Line
+	7750 4500 7500 4500
+Wire Wire Line
+	7750 3350 8000 3350
+Wire Wire Line
+	7750 3350 7750 3200
+Wire Wire Line
+	7750 3200 7450 3200
+Wire Wire Line
+	8000 2650 7750 2650
+Wire Wire Line
+	7750 2650 7750 2750
+Wire Wire Line
+	7750 2750 7450 2750
+Wire Wire Line
+	7450 2950 8900 2950
+Connection ~ 8900 2950
+Wire Wire Line
+	7500 4700 8900 4700
+Connection ~ 8900 4700
+$Comp
+L C C208
+U 1 1 532F3BA1
+P 7550 2300
+AR Path="/532EAC8E/532F3BA1" Ref="C208"  Part="1" 
+AR Path="/532EC996/532F3BA1" Ref="C308"  Part="1" 
+F 0 "C208" H 7550 2400 40  0000 L CNN
+F 1 "C" H 7556 2215 40  0000 L CNN
+F 2 "~" H 7588 2150 30  0000 C CNN
+F 3 "~" H 7550 2300 60  0000 C CNN
+	1    7550 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C209
+U 1 1 532F3BAE
+P 7550 4050
+AR Path="/532EAC8E/532F3BAE" Ref="C209"  Part="1" 
+AR Path="/532EC996/532F3BAE" Ref="C309"  Part="1" 
+F 0 "C209" H 7550 4150 40  0000 L CNN
+F 1 "C" H 7556 3965 40  0000 L CNN
+F 2 "~" H 7588 3900 30  0000 C CNN
+F 3 "~" H 7550 4050 60  0000 C CNN
+	1    7550 4050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7350 2300 7050 2300
+Wire Wire Line
+	7050 2300 7050 2450
+Wire Wire Line
+	7750 2300 7850 2300
+Wire Wire Line
+	7850 2300 7850 2950
+Connection ~ 7850 2950
+Wire Wire Line
+	7350 4050 7100 4050
+Wire Wire Line
+	7100 4050 7100 4200
+Wire Wire Line
+	7750 4050 7850 4050
+Wire Wire Line
+	7850 4050 7850 4700
+Connection ~ 7850 4700
+$Comp
+L C C201
+U 1 1 533041D8
+P 2700 2900
+AR Path="/532EAC8E/533041D8" Ref="C201"  Part="1" 
+AR Path="/532EC996/533041D8" Ref="C301"  Part="1" 
+F 0 "C201" H 2700 3000 40  0000 L CNN
+F 1 "100n" H 2706 2815 40  0000 L CNN
+F 2 "~" H 2738 2750 30  0000 C CNN
+F 3 "~" H 2700 2900 60  0000 C CNN
+	1    2700 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2900 2900 4550 2900
+Text Label 3000 2900 0    60   ~ 0
+GND
+$Comp
+L C C202
+U 1 1 533042BB
+P 3850 2500
+AR Path="/532EAC8E/533042BB" Ref="C202"  Part="1" 
+AR Path="/532EC996/533042BB" Ref="C302"  Part="1" 
+F 0 "C202" H 3850 2600 40  0000 L CNN
+F 1 "100n" H 3856 2415 40  0000 L CNN
+F 2 "~" H 3888 2350 30  0000 C CNN
+F 3 "~" H 3850 2500 60  0000 C CNN
+	1    3850 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C203
+U 1 1 533042C1
+P 4150 2500
+AR Path="/532EAC8E/533042C1" Ref="C203"  Part="1" 
+AR Path="/532EC996/533042C1" Ref="C303"  Part="1" 
+F 0 "C203" H 4150 2600 40  0000 L CNN
+F 1 "100n" H 4156 2415 40  0000 L CNN
+F 2 "~" H 4188 2350 30  0000 C CNN
+F 3 "~" H 4150 2500 60  0000 C CNN
+	1    4150 2500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3150 6300 3150 5700
+Wire Wire Line
+	3150 5700 3300 5700
+Wire Wire Line
+	3150 5900 3300 5900
+Connection ~ 3150 5900
+Wire Wire Line
+	4150 2900 4150 2700
+Wire Wire Line
+	3850 2700 3850 2900
+Connection ~ 3850 2900
+Wire Wire Line
+	4150 2250 4150 2300
+Wire Wire Line
+	3850 2250 3850 2300
+Connection ~ 3850 2250
+$Comp
+L CP1 C206
+U 1 1 53304590
+P 5200 1900
+AR Path="/532EAC8E/53304590" Ref="C206"  Part="1" 
+AR Path="/532EC996/53304590" Ref="C306"  Part="1" 
+F 0 "C206" H 5250 2000 50  0000 L CNN
+F 1 "100u" H 5250 1800 50  0000 L CNN
+F 2 "~" H 5200 1900 60  0000 C CNN
+F 3 "~" H 5200 1900 60  0000 C CNN
+	1    5200 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C207
+U 1 1 533045A2
+P 5550 1900
+AR Path="/532EAC8E/533045A2" Ref="C207"  Part="1" 
+AR Path="/532EC996/533045A2" Ref="C307"  Part="1" 
+F 0 "C207" H 5600 2000 50  0000 L CNN
+F 1 "100u" H 5600 1800 50  0000 L CNN
+F 2 "~" H 5550 1900 60  0000 C CNN
+F 3 "~" H 5550 1900 60  0000 C CNN
+	1    5550 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 1650 5550 1700
+Wire Wire Line
+	5200 1700 5200 1650
+Connection ~ 5200 1650
+Wire Wire Line
+	4900 1700 4900 1650
+Connection ~ 4900 1650
+Wire Wire Line
+	4550 1700 4550 1650
+Connection ~ 4550 1650
+Wire Wire Line
+	4550 2900 4550 2100
+Connection ~ 4150 2900
+Wire Wire Line
+	4900 2100 4900 2200
+Wire Wire Line
+	4550 2200 5550 2200
+Connection ~ 4550 2200
+Wire Wire Line
+	5200 2200 5200 2100
+Connection ~ 4900 2200
+Wire Wire Line
+	5550 2200 5550 2100
+Connection ~ 5200 2200
+$Comp
+L R R201
+U 1 1 5330E0F3
+P 7550 3700
+AR Path="/532EAC8E/5330E0F3" Ref="R201"  Part="1" 
+AR Path="/532EC996/5330E0F3" Ref="R301"  Part="1" 
+F 0 "R201" V 7630 3700 40  0000 C CNN
+F 1 "R" V 7557 3701 40  0000 C CNN
+F 2 "~" V 7480 3700 30  0000 C CNN
+F 3 "~" H 7550 3700 30  0000 C CNN
+	1    7550 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R202
+U 1 1 5330E0F9
+P 7550 5450
+AR Path="/532EAC8E/5330E0F9" Ref="R202"  Part="1" 
+AR Path="/532EC996/5330E0F9" Ref="R302"  Part="1" 
+F 0 "R202" V 7630 5450 40  0000 C CNN
+F 1 "R" V 7557 5451 40  0000 C CNN
+F 2 "~" V 7480 5450 30  0000 C CNN
+F 3 "~" H 7550 5450 30  0000 C CNN
+	1    7550 5450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7100 5200 7100 5450
+Wire Wire Line
+	7100 5450 7300 5450
+Connection ~ 8900 5450
+Wire Wire Line
+	7050 3450 7050 3700
+Wire Wire Line
+	7050 3700 7300 3700
+Connection ~ 8900 3700
+Connection ~ 9100 4650
+$Comp
+L CP1 C211
+U 1 1 53314CD7
+P 3450 2550
+AR Path="/532EAC8E/53314CD7" Ref="C211"  Part="1" 
+AR Path="/532EC996/53314CD7" Ref="C311"  Part="1" 
+F 0 "C211" H 3500 2650 50  0000 L CNN
+F 1 "10u" H 3500 2450 50  0000 L CNN
+F 2 "~" H 3450 2550 60  0000 C CNN
+F 3 "~" H 3450 2550 60  0000 C CNN
+	1    3450 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 2350 3450 2250
+Connection ~ 3450 2250
+Wire Wire Line
+	3450 2750 3450 2900
+Connection ~ 3450 2900
+$Comp
+L CP1 C210
+U 1 1 53314DE5
+P 3200 2550
+AR Path="/532EAC8E/53314DE5" Ref="C210"  Part="1" 
+AR Path="/532EC996/53314DE5" Ref="C310"  Part="1" 
+F 0 "C210" H 3250 2650 50  0000 L CNN
+F 1 "10u" H 3250 2450 50  0000 L CNN
+F 2 "~" H 3200 2550 60  0000 C CNN
+F 3 "~" H 3200 2550 60  0000 C CNN
+	1    3200 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 2750 3200 2900
+Connection ~ 3200 2900
+Wire Wire Line
+	3200 2350 3200 2250
+Connection ~ 3200 2250
+Wire Wire Line
+	1900 6300 3700 6300
+Wire Wire Line
+	3700 6300 3700 6000
+Connection ~ 3150 6300
+Wire Wire Line
+	6650 3200 6250 3200
+Text Label 6250 3200 0    60   ~ 0
+GND
+$EndSCHEMATC
